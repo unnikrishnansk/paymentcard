@@ -1,7 +1,3 @@
-.App {
-  text-align: center;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +31,81 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.firstdiv{
+  border: 1px solid rgb(255,165,0);
+  height: 350px;
+  width: 60%;
+  margin: auto;
+  margin-top: 20px;
+  background-color: rgb(255,165,0);
+}
+
+.date{
+  margin: 30px 0 0 50px;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.subheading {
+  /* border: 1px solid green; */
+  height: 30px;
+  width: 110px;
+  align-items: center;
+  text-align: center;
+  margin: 30px 0 0 50px;
+  padding: 5px;
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.heading{
+  /* border: 1px solid red; */
+  height: 100px;
+  width: 250px;
+  font-size: 34px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin: 30px 0 0 50px;
+}
+
+.devices{
+  font-weight: bold;
+  font-size: 20px;
+  margin: 30px 0 0 50px;
+}
+
+.seconddiv{
+  border: 1px solid rgb(202,202,202);
+  height: 350px;
+  width: 60%;
+  margin: auto;
+  margin-top: 20px;
+  background-color: rgb(202,202,202);
+}
+
+.logo{
+  /* border: 1px solid blue; */
+  height: 50px;
+  width: 50px;
+  margin: 30px 50px 0 0;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
+
+.image{
+  height: 50px;
+  width: 50px;
+}
+
+.image1{
+  height: 50px;
+  width: 50px;
 }
